@@ -1,0 +1,21 @@
+*{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(0deg,rgba(252, 40, 86, 1) 0%, rgba(255, 131, 64, 1) 50%, rgba(255, 102, 0, 1) 100%);
+}
+        .content img{
+            align-content: center;
+            width: 100%;
+            margin: 2em auto; 
+            
+}
+a:link, a:visited {
+  background-color: #ffffff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-content: center;
+}
