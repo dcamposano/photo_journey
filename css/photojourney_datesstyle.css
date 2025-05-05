@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+img {
+    display: none;
+}
 /* Container grid styling */
 div.container {
     display: grid;
