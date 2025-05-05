@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 div.gallery {
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
-    margin: 5px;
-    float: left;
-    width: 180px;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    grid-template-rows: auto;             /* Let rows adjust automatically */
+    gap: 5px;                             /* Add spacing between grid items */
+    margin: 5px auto;                     /* Center the gallery and add margin */
+    width: 180px;                         /* Keep the specified width */
 }
+
 div.gallery img {
-    width: 100%;
-    height: auto;
-    align-items: center;
-  }
-  
+    width: 100%;                          /* Ensure images fit within their container */
+    height: auto;                         /* Maintain aspect ratio */
+}
