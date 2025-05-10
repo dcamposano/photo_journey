@@ -8,9 +8,12 @@
     grid-template-columns: auto auto auto;
     flex-direction: row;
   flex-wrap: nowrap;
-    width: 50%;
 }
 .flex-container > div {
   width: 100px;
   margin: 10px;
+    line-height: 75px;
+}
+.screen-half {
+    width: 50%;
 }
