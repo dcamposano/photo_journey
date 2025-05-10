@@ -2,8 +2,6 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-image: linear-gradient(0deg,rgba(252, 40, 86, 1) 0%, rgba(255, 131, 64, 1) 50%, rgba(255, 102, 0, 1) 100%);
-            background-image: url("images/streetlamp_home.png");
 }
         .content img{
             align-content: center;
