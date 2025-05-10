@@ -6,14 +6,16 @@
 .screenHalf {
     width: 50%;
 }
+    .gallery img{
+    height: 100px; 
+    width: 100px; 
+}
 .flex-container{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
-.flex-gallery{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+.container > div {
+height: 100px;
+width: 100px; 
 }
