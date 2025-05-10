@@ -1,18 +1,19 @@
-{
+* {
     margin: 0;
     padding: 0;
+    background-color: #dc8f8f;
+}
+.screenHalf {
+    width: 50%;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
-div.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
-    grid-template-rows: auto;             /* Let rows adjust automatically */
-    gap: 5px;                             /* Add spacing between grid items */
-    margin: 5px auto;                     /* Center the gallery and add margin */
-    width: 180px;                         /* Keep the specified width */
-}
-
-div.gallery img {
-    width: 100%;                          /* Ensure images fit within their container */
-    height: auto;                         /* Maintain aspect ratio */
+.flex-gallery{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
