@@ -3,17 +3,17 @@
     padding: 0;
     background-color: #dc8f8f;
 }
-.flex-container {
-  display: grid;
-    flex-direction: column;
-  flex-wrap: nowrap;
-     justify-content: space-around;
-}
-.flex-container > div {
-  width: 100px;
-  margin: 10px;
-    line-height: 75px;
-}
-.screen-half {
+.screenHalf {
     width: 50%;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-gallery{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
