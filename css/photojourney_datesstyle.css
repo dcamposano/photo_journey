@@ -5,9 +5,9 @@
 }
 .flex-container {
   display: grid;
-    grid-template-columns: auto auto auto;
     flex-direction: row;
   flex-wrap: nowrap;
+     justify-content: space-around;
 }
 .flex-container > div {
   width: 100px;
