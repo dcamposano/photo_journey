@@ -10,10 +10,6 @@ img {
 div.container {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: repeat(3, auto); /* Simplified template columns */
-    grid-template-rows: repeat(3, auto);   /* Simplified template rows */
-}
-
 /* Content styling */
 div.content {
     grid-column: 2 / 3; /* Simplified shorthand for grid-column */
