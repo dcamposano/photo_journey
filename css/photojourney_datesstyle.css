@@ -3,21 +3,15 @@
     margin: 0;
     padding: 0;
 }
-img {
-    display: none;
-}
-/* Container grid styling */
-div.container {
-    display: grid;
-    margin: 0 auto;
-/* Content styling */
-div.content {
-    grid-column: 2 / 3; /* Simplified shorthand for grid-column */
-    grid-row: 1 / 2;    /* Simplified shorthand for grid-row */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
 }
 
-/* Sidebar styling */
-div.sidebar {
-    grid-column: 2 / 3; /* Set sidebar to span the correct columns */
-    grid-row: 2 / 3;    /* Set sidebar to span the correct rows */
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  line-height: 75px;
 }
