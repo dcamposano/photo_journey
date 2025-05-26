@@ -8,14 +8,4 @@
             align-content: center;
             width: 100%;
             margin: 2em auto; 
-            
-}
-a:link, a:visited {
-  background-color: #ffffff;
-  color: black;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  align-content: center;
-}
+        }            
