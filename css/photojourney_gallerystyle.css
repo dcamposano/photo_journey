@@ -17,8 +17,8 @@
   flex-wrap: no-wrap;
 }
 .gallery > img {
-height: 320px;
-width: 238px; 
+height: 100%;
+width: 100%; 
 }
 .gallery > img:hover {
     position: relative;
