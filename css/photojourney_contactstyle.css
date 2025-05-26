@@ -1,0 +1,41 @@
+{
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ header{
+         text-align: center;
+         line-height: 4em;
+         color: darkblue
+ }
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(193, 171, 206);
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(193, 171, 206);
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+input[type=submit] {
+    margin-top: 12px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+    Width: 100%;
+    font-size: 18px;
+}
